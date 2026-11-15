@@ -1,0 +1,10 @@
+torch
+transformers>=4.44,<5
+scikit-learn
+scipy
+pandas
+numpy
+matplotlib
+requests
+sentencepiece
+protobuf

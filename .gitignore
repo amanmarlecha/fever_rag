@@ -1,0 +1,22 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Big files: every teammate downloads or creates these on their own computer
+data/raw/*
+data/corpus.jsonl
+data/embeddings.npy
+models/*
+outputs/*
+
+# ...but keep the empty folders in Git
+!data/raw/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+
+# Editor / system files
+.vscode/
+.DS_Store
+Thumbs.db
