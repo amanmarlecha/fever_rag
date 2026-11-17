@@ -5,7 +5,15 @@ __pycache__/
 *.pyc
 
 # Big files: every teammate downloads or creates these on their own computer
+# Dataset files
 data/raw/*
+
+# Allow selected FEVER files in GitHub
+!data/raw/fever/
+data/raw/fever/*
+!data/raw/fever/train.jsonl
+!data/raw/fever/shared_task_dev.jsonl
+
 data/corpus.jsonl
 data/embeddings.npy
 models/*
