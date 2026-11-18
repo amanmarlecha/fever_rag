@@ -17,12 +17,10 @@ data/raw/fever/*
 data/corpus.jsonl
 data/embeddings.npy
 models/*
-outputs/*
 
 # ...but keep the empty folders in Git
 !data/raw/.gitkeep
 !models/.gitkeep
-!outputs/.gitkeep
 
 # Editor / system files
 .vscode/

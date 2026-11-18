@@ -1,0 +1,8 @@
+system,label_accuracy,FEVER_score,source
+FEVER 2018 baseline (Thorne et al.),50.91,31.87,"FEVER paper abstract, arXiv:1803.05355"
+UKP-Athene (Hanselowski et al.),68.49,64.74,"KGAT paper Table 2 (dev set), arXiv:1910.09796"
+UNC NLP (Nie et al.),69.72,66.49,"KGAT paper Table 2 (dev set), arXiv:1910.09796"
+GEAR (Zhou et al.),74.84,70.69,"KGAT paper Table 2 (dev set), arXiv:1910.09796"
+"KGAT, BERT-base (Liu et al.)",78.02,75.88,"KGAT paper Table 2 (dev set), arXiv:1910.09796"
+"KGAT, RoBERTa-large (Liu et al.)",78.29,76.11,"KGAT paper Table 2 (dev set), arXiv:1910.09796"
+THIS PROJECT (our small library!),77.6,71.4,this run

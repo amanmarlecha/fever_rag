@@ -1,0 +1,3 @@
+model,says NOT ENOUGH INFO,accuracy when it gives a verdict,accuracy (NEI counts as wrong)
+A: claim only,0.59,0.554,0.227
+B: claim + evidence,0.94,0.426,0.026

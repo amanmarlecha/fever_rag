@@ -1,0 +1,10 @@
+model,accuracy,macro_F1,FEVER_score
+1. Always guess one label,33.3,16.7,
+"2. Old-style, claim only (TF-IDF + LogReg)",50.8,50.7,
+3. Old-style pipeline (keyword search + LogReg),56.2,56.2,50.3
+"4. Pretrained NLI model, no fine-tuning",37.2,31.2,35.5
+"5. Ours A: fine-tuned, claim only",63.9,63.6,
+6. Ours B + keyword search only,76.7,76.7,70.1
+7. Ours B + meaning search only,77.8,77.4,74.1
+8. OURS B + hybrid search (main model),77.6,77.4,71.4
+9. Ours B + perfect evidence (upper limit),76.8,76.9,

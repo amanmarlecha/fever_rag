@@ -1,0 +1,4 @@
+model,accuracy,macro_F1,FEVER_score
+A: claim only (no search),0.639,0.636,
+B: claim + searched evidence,0.776,0.774,0.714
+C: claim + perfect evidence (upper limit),0.768,0.769,
